@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#673AB7"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/bt_left"
+            android:src="@drawable/ic_keyboard_arrow_left_white_48dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/bt_right"
+            android:src="@drawable/ic_keyboard_arrow_right_white_48dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/bt_reset"
+            android:src="@drawable/ic_autorenew_white_48dp"
+            android:background="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:padding="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <TextView
+            android:id="@+id/tv_breakfast"
+            android:layout_width="0px"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="3"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="아 침"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#D1C4E9" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <TextView
+            android:id="@+id/tv_lunch"
+            android:layout_width="0px"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:scrollbars="vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="점 심"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#D1C4E9" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <TextView
+            android:id="@+id/tv_dinner"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0px"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:scrollbars="vertical"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="저 녁"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <Button
+            android:id="@+id/bt_openLicense"
+            android:textSize="20sp"
+            android:text="오픈라이선스"
+            android:background="#7d60b1"
+            android:textColor="#e1e1e1"
+            android:scaleType="centerCrop"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="2sp"
+            android:layout_height="match_parent"
+            android:background="#baa1e7" />
+
+        <Button
+            android:id="@+id/bt_supportEmail"
+            android:textSize="20sp"
+            android:text="건의사항"
+            android:textColor="#e1e1e1"
+            android:scaleType="centerCrop"
+            android:background="#7d60b1"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
